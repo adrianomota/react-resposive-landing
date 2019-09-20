@@ -76,6 +76,10 @@ export const PageWrap = styled.div`
   height: 6rem;
   background: linear-gradient(to right, #1723b1, #58f0ff);
   color: #fff;
+
+  ${media.lessThan('medium')`
+      display: none;
+  `}
 `;
 
 export const Content = styled.div`
